@@ -14,11 +14,35 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Ristorante Con Fusion</title>
   </head>
 
   <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand mr-auto" href="#">Bootstrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header align-items-center">
@@ -40,7 +64,8 @@
         <div class="col-12 col-sm-4 order-sm-last col-md-3">
           <h3>Our Lipsmacking Culinary Creations</h3>
         </div>
-        <div class="col col-sm order-sm-first col-md"> <!-- remaining col-sm means aaba 8 ota vo same gari col-md 9 ota vo haina-->
+        <div class="col col-sm order-sm-first col-md">
+          <!-- remaining col-sm means aaba 8 ota vo same gari col-md 9 ota vo haina-->
           <h2>Uthappizza</h2>
           <p>
             A unique combination of Indian Uthappam (pancake) and Italian pizza,
@@ -82,14 +107,14 @@
       </div>
     </div>
 
-    <footer class="footer ">
+    <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="col-4 offset-1 col-sm-2">
             <h5>Links</h5>
             <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./aboutus.html">About</a></li>
               <li><a href="#">Menu</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -105,7 +130,8 @@
               Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
             </address>
           </div>
-          <div class="col-12 col-sm-4 align-self-center"> <!--seperate maa hunxa so-->
+          <div class="col-12 col-sm-4 align-self-center">
+            <!--seperate maa hunxa so-->
             <div class="text-center">
               <a href="http://google.com/+">Google+</a>
               <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
@@ -123,10 +149,10 @@
         </div>
       </div>
     </footer>
-    
-        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
